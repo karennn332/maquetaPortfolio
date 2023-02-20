@@ -1,0 +1,61 @@
+
+.bg-gris {
+    background-color:rgb(42, 19, 80);
+
+}
+.list-group{
+   --bs-list-group-bg:transparent; 
+   --bs-border-color:transparent;
+}
+i.fa-brands.fa-linkedin.fa-2x.text-warning:hover{
+    background-color: blueviolet;
+}
+i.fa-brands.fa-facebook.fa-2x.text-warning:hover{
+    background-color: blueviolet;
+}
+i.fa-brands.fa-square-github.fa-2x.text-warning:hover{
+    background-color: blueviolet;
+}
+i.fa-sharp.fa-solid.fa-user-lock.fa-2x.text-warning:hover{
+    background-color: blueviolet;  
+}
+.img-fluid {
+    width: 100%;
+    height: 375px;
+    
+}
+.rounded-circle{
+    width: 250px;
+    height: 250px;
+}
+.banner{
+    background-color:rgb(42,19,80);
+}
+.card-title{
+    color: orange;
+    text-align: center;
+    /* font-size: xx-large; */
+    background-size: cover;
+}
+.card-body{
+    background-color:rgb(42, 19, 80) ;
+}
+.progress-bar{
+    background-color:rgb(42, 179, 184);
+    width: 50%;
+}
+.progress{
+    background-color: rgb(136, 190, 226);
+}
+.card.text-center{
+    font-size: medium;
+}
+h1{
+    color: chocolate;
+}
+.col-9{
+   background-color: rebeccapurple;
+}
+h6{
+    color: blueviolet;
+}

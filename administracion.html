@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="styles.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f19b4500c4.js" crossorigin="anonymous"></script> 
+<link rel="stylesheet" href="styles.css">
+		<title>administracion</title>
+</head>
+<body>
+	
+	<div class="container-fluid">
+	<div class="row mb-3">
+		<div class="col-3 bg-gris">
+			<!--logoAP-->
+			<a class="navbar-expand-lg " href="index.html">
+				<img src="perfil (2).jpg" class="rounded-circle img-fluid" alt="Logo de AP" class="w-100">
+				</a>
+				<h1>Karen Diaz <br> Full Stack
+					Developer Jr</h1>
+			
+				<!--item-->
+				<div class="list-group" id="list-tab" role="tablist">
+<li class="list-group-item list-group-item-action" id="list-Redes-list" data-bs-toggle="list" href="#list-Redes" role="tab" aria-controls="list-Redes"><i class="fa-sharp fa-solid fa-image-portrait text-warning"></i><h6>Redes</h6></li>					
+<li class="list-group-item list-group-item-action" id="list-Perfil-list" data-bs-toggle="list" href="#list-Perfil" role="tab" aria-controls="list-Perfil"><i class="fa-sharp fa-solid fa-square-share-nodes text-warning"></i><h6>Perfil</h6></li>
+<li class="list-group-item list-group-item-action" id="list-banner-list" data-bs-toggle="list" href="#list-banner" role="tab" aria-controls="list-banner"><i class="fa-sharp fa-solid fa-images text-warning"></i><h6>Banner</h6></li>
+<li class="list-group-item list-group-item-action" id="list-proyecto-list" data-bs-toggle="list" href="#list-proyecto" role="tab" aria-controls="list-proyecto"><i class="fa-solid fa-circle-info text-warning"></i><h6>Proyectos</h6></li>
+<li class="list-group-item list-group-item-action" id="list-Acercademi-list" data-bs-toggle="list" href="#list-Acercademi" role="tab" aria-controls="list-Acercademi"><i class="fa-solid fa-book text-warning"></i><h6>Acerca de mi</h6></li>
+<li class="list-group-item list-group-item-action" id="list-Certificados-list" data-bs-toggle="list" href="#list-Certificados" role="tab" aria-controls="list-Certificados"><i class="fa-solid fa-graduation-cap text-warning"></i><h6>Certificados</h6></li>
+			  </div>
+		</div>
+
+		<!--nav user-->
+		<div class="col-9 ">
+			<nav class="navbar bg-gris">
+				<a href="login.html"> <i class="fa-sharp fa-solid fa-user fa-2x text-warning rounded border-end "></i></a>
+				</nav>
+<!--boton accion-->
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="list-Redes" role="tabpanel" aria-labelledby="list-Redes-list"><label for="exampleDataList" class="form-label"><h5>Linkedin</h5></label>
+						
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"><button type="button" class="btn btn-dark text-warning">Guardar</button><button type="button" class="btn btn-dark text-warning">Eliminar</button><button type="button" class="btn btn-dark text-warning">actualizar</button>
+						<div class="tab-content" id="nav-tabContent">
+						<label for="exampleDataList" class="form-label"><h5>Github</h5></label>
+						<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"><button type="button" class="btn btn-dark text-warning">Guardar</button><button type="button" class="btn btn-dark text-warning">Eliminar</button><button type="button" class="btn btn-dark text-warning">actualizar</button>
+						<div class="tab-content" id="nav-tabContent">
+						<label for="exampleDataList" class="form-label"><h5>Facebook</h5></label>
+						<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"><button type="button" class="btn btn-dark text-warning">Guardar</button><button type="button" class="btn btn-dark text-warning">Eliminar</button><button type="button" class="btn btn-dark text-warning">actualizar</button>
+					</div>
+					</div>
+				</div>
+<!--perfil-->
+<div class="tab-pane fade" id="list-Perfil" role="tabpanel" aria-labelledby="list-perfil-list"><label for="exampleDataList" class="form-perfil"><h5>Perfil</h5></label><input class="form-control" type="file" id="formFile">
+	<button type="button" class="btn btn-dark text-warning">Guardar</button><button type="button" class="btn btn-dark text-warning">Eliminar</button><button type="button" class="btn btn-dark text-warning">actualizar</button></div>
+<!--banner-->	
+					<div class="tab-pane fade" id="list-banner" role="tabpanel" aria-labelledby="list-banner-list"><label for="exampleDataList" class="form-label"><h5>Banner</h5></label><input class="form-control" type="file" id="formFile">
+					<button type="button" class="btn btn-dark text-warning">Guardar</button><button type="button" class="btn btn-dark text-warning">Eliminar</button><button type="button" class="btn btn-dark text-warning">actualizar</button></div>
+<!--info -->
+					<div class="tab-pane fade" id="list-proyecto" role="tabpanel" aria-labelledby="list-proyecto-list"><label for="exampleDataList" class="form-label"><h5>Proyecto</h5></label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><button type="button" class="btn btn-dark text-warning">Guardar</button><button type="button" class="btn btn-dark text-warning">Eliminar</button><button type="button" class="btn btn-dark text-warning">actualizar</button></div>
+<!--acerca-->
+						<div class="tab-pane fade" id="list-Acercademi" role="tabpanel" aria-labelledby="list-Acercademi-list"><label for="exampleDataList" class="form-label"><h5>Acerca de mi</h5></label>
+							
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+<button type="button" class="btn btn-dark text-warning">Guardar</button><button type="button" class="btn btn-dark text-warning">Eliminar</button><button type="button" class="btn btn-dark text-warning">actualizar</button></div>
+<!--certifica-->
+<div class="tab-pane fade" id="list-Certificados" role="tabpanel" aria-labelledby="list-Certificados-list">
+	<div class="mb-3 ">
+	<label for="formFile" class="form-label">imagenUno</label>
+  <input class="form-control" type="file" id="formFile">
+
+		<label for="formFile" class="form-label">imagenDos</label>
+  <input class="form-control" type="file" id="formFile">
+
+  <label for="formFile" class="form-label">imagenTres</label>
+  <input class="form-control" type="file" id="formFile">
+
+  <label for="formFile" class="form-label">imagenCuatro</label>
+  <input class="form-control" type="file" id="formFile">
+
+  <label for="formFile" class="form-label">ImagenCinco</label>
+  <input class="form-control" type="file" id="formFile">
+
+  <label for="formFile" class="form-label">imageneSeis</label>
+  <input class="form-control" type="file" id="formFile">
+
+	</div>
+</div>	
+				</div>
+	</div>
+	</div>
+
+			<!-- seccion footer -->
+ <section>
+<div class="card text-center">
+	<div class="card-body">
+		<h5 class="card-title"> © Copyright 2023 Karen Elizabeth Diaz  </h5>
+	</div>
+</div>
+</section>
+	
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+	
+		
+</body>
+</html>
